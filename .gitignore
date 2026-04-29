@@ -1,0 +1,8 @@
+# Node / Vercel
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Service account JSON (chiave privata)
+service-account.json
