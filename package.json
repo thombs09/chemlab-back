@@ -1,5 +1,8 @@
 {
+  "name": "chemlab",
+  "version": "1.0.0",
   "dependencies": {
-    "google-auth-library": "^8.0.0"
+    "google-auth-library": "^8.0.0",
+    "node-fetch": "^3.3.1"
   }
 }
