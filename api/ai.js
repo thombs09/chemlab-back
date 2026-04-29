@@ -3,7 +3,7 @@ import { GoogleAuth } from "google-auth-library";
 export default async function handler(req, res) {
   try {
     // Legge il JSON dalla variabile d'ambiente
-    const serviceAccount = JSON.parse(process.env.SERVICE_ACCOUNT_JSON);
+   const serviceAccount = JSON.parse(process.env.SERVICE_ACCOUNT_JSON.replace(/\\n/g, '\n'));
 
     const auth = new GoogleAuth({
       credentials: serviceAccount,
