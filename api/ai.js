@@ -2,6 +2,7 @@ import { GoogleAuth } from "google-auth-library";
 
 export default async function handler(req, res) {
   try {
+    // Legge il JSON dalla variabile d'ambiente
     const serviceAccount = JSON.parse(process.env.SERVICE_ACCOUNT_JSON);
 
     const auth = new GoogleAuth({
@@ -26,7 +27,9 @@ export default async function handler(req, res) {
 
     const data = await r.json();
     return res.status(200).json(data);
+
   } catch (e) {
+    console.error("Errore AI:", e);
     return res.status(500).json({ error: e.message });
   }
 }
