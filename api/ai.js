@@ -3,9 +3,17 @@ import { GoogleAuth } from "google-auth-library";
 export default async function handler(req, res) {
   try {
     // Legge il JSON dalla variabile d'ambiente
-  const serviceAccount = JSON.parse(
-  process.env.SERVICE_ACCOUNT_JSON.replace(/\\\\n/g, '\n')
-);
+ const serviceAccount = {
+  type: "service_account",
+  project_id: "gen-lang-client-0713384502",
+  private_key: process.env.PRIVATE_KEY.replace(/\\\\n/g, "\n"),
+  client_email: "chem-lab-backend@gen-lang-client-0713384502.iam.gserviceaccount.com",
+  client_id: "105887244527573302",
+  auth_uri: "https://accounts.google.com/o/oauth2/auth",
+  token_uri: "https://oauth2.googleapis.com/token",
+  auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
+  client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/chem-lab-backend@gen-lang-client-0713384502.iam.gserviceaccount.com"
+};
 
     const auth = new GoogleAuth({
       credentials: serviceAccount,
