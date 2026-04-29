@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gen-lang-client-0713384502",
+  "private_key_id": "a84c62b683e30ca71550c6229fcf7e0de676fff8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7mX8gVn+2Tcrs\ngaI7M2T5oMojTddEN4EL8wsLH89SIVgprAUDginqp6+VB4rdzEHNdZGEe8tOkq2t\nqbzfFuQegaQVxkt/eUOBLDZ/Bw8J2uJYaLc4h7KMCXr5dwHPZGvtK+5bDSFGJ8T5\nGAUyXSFVoNtGVFGHsTNsIzIv7ijO7ggoZGzYzcikNTfUeMnJEaFWoPUYoWkqfuVn\nqvKj38Tvz3RvcuGpp7wUNudiyzP0ho2EV89KFqL1dHCm72QbNI0UiTJqWm6VKANS\nyHDWXzF7/RVHRMwM++K6/1uSwG7+D1JDeCSJmPF9lBNScQ9Prjmck59dP4eXRZk7\ndbZqdoazAgMBAAECggEAVGaZsEXaTX2wVzl3cKUNv9VcPAfwWouSLnsZM9cK4kuI\nK69tzgdIrn7k2uq6ylD0JejIIE/Fx0Lsip48EC5vUV5IIVfGbcJz4XCvz/SwCmIE\nxXvPOsqqRKCbSBMHqHPorpq+MQ62Mqb/0oXBCMinj6vAG2MiDydlGDi5gqDmkTn2\n8IH/FLx8eghzjZxo1O8yYVsgriNvompSBDP78pKw7CceM4R1awzLSJvSYW7b6aFC\nM6S9Qwj1jl6pSsEOFb+nWLTgW+MOo19tAhkH055ndetGP2kfq2RiM30ohISbAuwO\nuwxF4oL6KnCLMcIVV2qMUGL3/t9ERlHaqCqk0XfjaQKBgQDj10AAKVjOJ32r+UcO\nOOCxLBoM4SoInKQsY+ZIii2Kflb0bQF1lc1X/ZEz5jPVBzlFttm0HkbdqXhI2BZZ\n7SH38MX8HU0x+5yxibna9ODLi1LMvLdIgM967V33XcBjZomLkw3KWDbkf9O/r6KK\nbI7bjHvFZroJqxDeXoVkPm7JTwKBgQDSyQmvtzbNVZPSaKFtese46lM2Pi9695su\nac/u0QuQ0SIAyi8mboewOr0v4rhVtfEIGdZYkyxl23NkwTRsWDyLL8J5OhGDN/Hs\nruWJLEF27cAMdATPH4n/E9VCiiE9+tb31JqDmd4z8ghXb6x7uRMgq5nQjXrPsDE2\nucf7lx8LXQKBgQCaTjCBK3+Cd0psizHtVuYN9+FYsbIHDRc/HRVcMYDwV+pKNf0U\nBrWAjzGk5ZZbAz5tkY3Vp9+0xc65/ub8VlZ4Fi/wNGQQouiXcMBXoxsPnzcfg/vZ\ndauPBG1sV6kxaMNkrN5dGOtsS4o8OxYpC6ag2H8GzTDX1WxiPb+3iXT8jwKBgF5E\nFDXmLPcFZ5d4vYDVoQ48lTwz8U4AAAFwxtIZ4R9BuAA8a3u3gK06h7MrpJ6IQKQL\n0gVIxFlFHEUZ9pThnSnuEP3gD0bstR/RU8vV4+0JBJNNK31psHBH8V7RoW4ziQHK\nrdNe87WtbzeTNMMcEMbSl3ZiX2MUe93qldoZSoPtAoGARBTnJ/iUR9FPGWqxhMlA\nvK+22s8jhwlGd+oboTBEF+2y5isKLD0dhM7ZTakl5WWMbnZQ7Vjy76t09tSZo8Pb\nFLWf//kwe2zZjszNKM6FM4STcgw6k5A9yNhJJm546mpAPikJi/N4ySy5trIoxIJD\ncy9zTe98NhSzWrf69LZnEb4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "chem-lab-backend@gen-lang-client-0713384502.iam.gserviceaccount.com",
+  "client_id": "105887244527573853302",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chem-lab-backend%40gen-lang-client-0713384502.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
